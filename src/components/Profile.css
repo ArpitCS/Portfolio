@@ -1,0 +1,94 @@
+.profile-card {
+  background-color: #17191a;
+  color: #ffffff;
+  width: 350px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 1px solid #e8c560;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.profile-name p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+
+.profile-job p {
+  font-size: 18px;
+  color: #e8c560;
+  margin: 5px 0 15px 0;
+  background-color: #2a2d2f;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #2a2d2f;
+  margin: 20px 0;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-card {
+  width: 100%;
+  padding: 20px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-icon {
+  color: #e8c560;
+  margin-right: 10px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.info-heading {
+  font-weight: bold;
+  margin: 0;
+  flex: 1;
+  text-align: left;
+}
+
+.info-content {
+  margin: 0;
+  text-align: right;
+  color: #bbbbbb;
+}
+
+.profile-social {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icon a {
+  color: #e8c560;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.social-icon a:hover {
+  color: #ffffff;
+}

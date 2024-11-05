@@ -1,0 +1,119 @@
+.section-container {
+    background-color: #17191a; /* primary color */
+    padding: 40px;
+    color: #e8c560; /* accent color */
+    border-radius: 25px;
+}
+
+.section-header {
+    font-size: 2rem;
+    color: white; /* accent color */
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid #e8c560; /* accent color */
+    margin: 10px auto;
+}
+
+.section-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e8c560;
+    margin: 20px;
+}
+
+/* Projects Section Styles */
+
+/* Project Card */
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2a2d2f; /* secondary color */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Project Details */
+.project-details {
+    width: 60%;
+}
+
+.project-details h3 {
+    font-size: 1.5rem;
+    color: #e8c560; /* accent color */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.project-details p {
+    color: #d4d4d4;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Tech Stack */
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.tech-label {
+    background-color: #17191a; /* primary color */
+    color: #e8c560; /* accent color */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* View Project Button */
+.project-details a button {
+    background-color: #e8c560; /* accent color */
+    color: #17191a; /* primary color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.project-details a button:hover {
+    background-color: #fff;
+}
+
+/* Project Image */
+.project-image img {
+    width: 350px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-details,
+    .project-image {
+        width: 100%;
+    }
+
+    .project-image img {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

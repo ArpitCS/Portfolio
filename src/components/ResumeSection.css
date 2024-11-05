@@ -1,0 +1,87 @@
+.section-container {
+    background-color: #17191a;
+    padding: 40px;
+    color: #e8c560;
+    border-radius: 25px;
+}
+
+.section-header {
+    font-size: 2rem;
+    color: white;
+    margin: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid #e8c560;
+    margin: 10px auto;
+}
+
+.section-content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #e8c560;
+    margin: 20px;
+}
+
+.content-header {
+    font-size: 1.5rem;
+    color: #e8c560;
+    margin: 30px 0 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.resume-list {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-item {
+    margin-bottom: 20px;
+}
+
+.resume-heading {
+    font-size: 1.2rem;
+    color: #e8c560;
+    font-weight: bold;
+}
+
+.resume-timeline {
+    font-size: 0.9rem;
+    color: #bbbbbb;
+    margin-bottom: 5px;
+}
+
+.resume-description {
+    font-size: 1rem;
+    color: #e8c560;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    font-size: 1rem;
+    color: #e8c560;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background-color: #2a2d2f;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 10px;
+    background-color: #e8c560;
+}
