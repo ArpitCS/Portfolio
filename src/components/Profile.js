@@ -1,11 +1,14 @@
-    import React from 'react'
-    import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-    import { faCalendar, faPhone, faLocationArrow, faLocation } from '@fortawesome/free-solid-svg-icons';
-    import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-    import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-    import "./Profile.css";
+import React, { useRef, useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendar, faPhone, faLocation } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import "./Profile.css";
 
-    const Profile = () => {
+import TypewriterComponent from 'typewriter-effect';
+
+const Profile = () => {
+
     return (
         <>
             <div className="profile-card">
@@ -13,7 +16,13 @@
                     <img src="https://placehold.co/400" alt="Profile" />
                 </div>
                 <div className="profile-name">
-                    <p>Arpit Garg</p>
+                    <p>
+                        <TypewriterComponent
+                            onInit={(typewriter) => {
+                                typewriter.typeString('Arpit Garg').start();
+                            }}
+                        />
+                    </p>
                 </div>
                 <div className="profile-job">
                     <p>Student</p>
@@ -71,7 +80,7 @@
                 </div>
             </div>
         </>
-    )
-    }
+    );
+};
 
-    export default Profile
+export default Profile;

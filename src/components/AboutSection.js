@@ -71,45 +71,6 @@ const AboutSection = () => {
             </div>
           </div>
         </div>
-        <h2 className="content-header">Testimonies</h2>
-        <div className="testimonies-container">
-          <div className="testimony-card">
-            <div className="testimony-image">
-              <img src="https://placehold.co/100" alt="" />
-            </div>
-            <div className="testimony-content">
-              <p className="testimony-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptates.
-              </p>
-              <p className="testimony-author">- John Doe</p>
-            </div>
-          </div>
-          <div className="testimony-card">
-            <div className="testimony-image">
-              <img src="https://placehold.co/100" alt="" />
-            </div>
-            <div className="testimony-content">
-              <p className="testimony-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptates.
-              </p>
-              <p className="testimony-author">- John Doe</p>
-            </div>
-          </div>
-          <div className="testimony-card">
-            <div className="testimony-image">
-              <img src="https://placehold.co/100" alt="" />
-            </div>
-            <div className="testimony-content">
-              <p className="testimony-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, voluptates.
-              </p>
-              <p className="testimony-author">- John Doe</p>
-            </div>
-          </div>
-        </div>
       </div>
     </>
   );
