@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendar, faPhone, faLocation } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import pfp from '../media/pfp.png';
 import "./Profile.css";
 
 import TypewriterComponent from 'typewriter-effect';
@@ -13,7 +14,7 @@ const Profile = () => {
         <>
             <div className="profile-card">
                 <div className="profile-image">
-                    <img src="https://placehold.co/400" alt="Profile" />
+                    <img src={pfp} alt="Profile" />
                 </div>
                 <div className="profile-name">
                     <p>
