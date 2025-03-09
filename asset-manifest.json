@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.90dc699e.css",
-    "main.js": "/Portfolio/static/js/main.10f1be13.js",
+    "main.js": "/Portfolio/static/js/main.51dd0be1.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/beimage-project.png": "/Portfolio/static/media/beimage-project.2f9db785f08e474ad54b.png",
     "static/media/quickmed-project.png": "/Portfolio/static/media/quickmed-project.aed58913a1c213753011.png",
     "static/media/mineguard-project.png": "/Portfolio/static/media/mineguard-project.ca0a91a4ae314aa22dca.png",
+    "static/media/pfp.png": "/Portfolio/static/media/pfp.d1466cdcf6ff1d994403.png",
     "static/media/computer-fundamentals.png": "/Portfolio/static/media/computer-fundamentals.7bec1c9a12bde7c87035.png",
     "static/media/electronics.png": "/Portfolio/static/media/electronics.f7f8c0523cd932c02189.png",
     "static/media/logo.svg": "/Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Portfolio/index.html",
     "main.90dc699e.css.map": "/Portfolio/static/css/main.90dc699e.css.map",
-    "main.10f1be13.js.map": "/Portfolio/static/js/main.10f1be13.js.map",
+    "main.51dd0be1.js.map": "/Portfolio/static/js/main.51dd0be1.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90dc699e.css",
-    "static/js/main.10f1be13.js"
+    "static/js/main.51dd0be1.js"
   ]
 }
